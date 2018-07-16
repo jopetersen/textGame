@@ -1,0 +1,11 @@
+def fight (method):
+    if method == "sword":
+        print("You take a swipe at the enemy with your sword!")
+        damage = random.randint(0,5)
+        enemy_health=new_enemy.health
+        enemy_health= enemy_health-damage
+        print("You do " + str(damage) + " damage to your opponent! They now have "
+        + str(enemy_health) + " left!")
+        #if enemy_health > 0:
+    else:
+        print("working")    
